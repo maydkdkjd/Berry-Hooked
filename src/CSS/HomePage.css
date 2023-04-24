@@ -1,0 +1,56 @@
+.top{
+   background-color: green;
+   font-size: small;
+}
+.top h1{
+    text-align:center;
+    color: white;
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 45px;
+    background-color: bisque;
+}
+.Search{
+    display: flex;
+    background-color: red;
+    color: white;
+    height: 30px;
+}
+.Search>input{
+    width: 280px;
+}
+.search>i{
+    position:absolute;
+    bottom: 10px;
+}
+.fruit-image>img{
+    height: 50px;
+    width: 60px;
+    background-color: none;
+    border-radius: 50%;
+    
+}
+.Items{
+    background-color: red;
+    padding: 15px;
+}
+.Items>ol{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    color: white;
+}
+.Content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Content>img{
+    height: 500px;
+    width: 400px;
+}
+.Content>div>h1{
+    font-size: 80px;
+}
